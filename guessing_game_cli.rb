@@ -6,18 +6,17 @@ def run_guessing_game
 
   # Capture user input from the command line
   input = gets.chomp
+  # If the user's input is equal to "exit": Goodbye!
+  if input == 'exit'
+    puts "Goodbye!"
+  end
   # Compare that input to the random number that has been
   # generated
 
-  # Print out one of three statements:
+  # Print out one of two statements:
     # If the user's input matches the random number: You
     # guessed the correct number!
 
     # If the user's input DOES NOT matches the random number:
     # Sorry! The computer guessed <number>.
-
-    # It the user's input is equal to "exit": Goodbye!
-  if input == 'exit'
-    puts "Goodbye!"
-  end
 end
