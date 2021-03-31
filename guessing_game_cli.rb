@@ -17,4 +17,7 @@ def run_guessing_game
     # Sorry! The computer guessed <number>.
 
     # It the user's input is equal to "exit": Goodbye!
+  if input == 'exit'
+    puts "Goodbye!"
+  end
 end
