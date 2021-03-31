@@ -13,14 +13,13 @@ def run_guessing_game
   end
   # Compare that input to the random number that has been
   # generated
-
-  # Print out one of two statements:
+  if input.to_i == number # Print out one of two statements:
     # If the user's input matches the random number: You
     # guessed the correct number!
-
+    print 'You guessed the correct number!'
   # If the user's input DOES NOT matches the random number:
   # Sorry! The computer guessed <number>.
-  if input.to_i != number
+  else
     print "Sorry! The computer guessed #{number}."
   end
 end
