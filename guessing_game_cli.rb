@@ -20,7 +20,7 @@ def run_guessing_game
 
   # If the user's input DOES NOT matches the random number:
   # Sorry! The computer guessed <number>.
-  if input != number
+  if input.to_i != number
     puts "Sorry! The computer guessed #{number}."
   end
 end
