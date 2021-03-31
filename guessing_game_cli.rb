@@ -5,7 +5,7 @@ def run_guessing_game
   # 6
 
   # Capture user input from the command line
-  get.chomp
+  input = gets.chomp
   # Compare that input to the random number that has been
   # generated
 
