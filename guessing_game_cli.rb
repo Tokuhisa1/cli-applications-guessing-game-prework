@@ -1,6 +1,7 @@
 # Code your solution here!
 def run_guessing_game
   # Generate and store a random number between 1 and 6
+  num = rand(1..6)
   # Prompts the user to guess their own number between 1 and
   # 6
 
